@@ -11,10 +11,10 @@
 		<div class="row">
 		
 		@foreach ($posts as $post)
-
 			<div class="col-12 col-xl-6">
 				<div class="card-custom">
 					<div class="card-header-custom">
+
 						<h1>
 							<a href="{{ route('post.view', $post->id) }}">{{ $post->title }}</a>
 						</h1>

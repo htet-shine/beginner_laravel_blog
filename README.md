@@ -58,7 +58,7 @@ If you see the home page of the application, you've successfully installed the a
 
 ---
 
-If you have any questions [Send me an Email](mailto:htetshineaung.business@gmail.com)
+If you have any questions [Send me an Email](mailto:htetshineaung.dev@gmail.com)
 
 Thank you for checking out my repository. Have a good day.
 

@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PostController@index');
+Route::get('/home', 'PostController@index');
 Route::get('/posts', 'PostController@index')->name('post.index');
 Route::get('/posts/view/{id}', 'PostController@view')->name('post.view');
 
@@ -35,4 +36,4 @@ Route::get('/comments/add', 'CommentController@create')->name('comment.create');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+

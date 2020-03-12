@@ -4,7 +4,7 @@
 
 	<div class="container">
 		<div class="section-title-container">
-			<h1 class="section-title">Add New Category</h1>
+			<h1 class="section-title">Edit Category</h1>
 		</div>
 
 		@include('partials.messages')
@@ -12,7 +12,7 @@
 		<form method="post">
 			{{ csrf_field() }}
 			<div class="form-group">
-				<label for="name">Name</label>
+				<label for="name">ID</label>
 				<input type="text" name="name" class="form-control" value="{{ $category->id }}" disabled>
 			</div>
 			<div class="form-group">
